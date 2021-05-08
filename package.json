@@ -1,0 +1,19 @@
+{
+  "name": "ts-distroless",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/alii/ts-distroless",
+  "author": "Alistair Smith <alistairsmith01@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^15.0.2",
+    "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "fastify": "^3.15.1"
+  }
+}
