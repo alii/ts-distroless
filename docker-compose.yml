@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  distroless:
+    ports:
+      - 8080:8080
+    build:
+      context: .
+      dockerfile: distroless.Dockerfile
+  distroful:
+    ports:
+      - 8081:8080
+    build:
+      context: .
+      dockerfile: distroless.Dockerfile
