@@ -12,4 +12,4 @@ services:
       - 8081:8080
     build:
       context: .
-      dockerfile: distroless.Dockerfile
+      dockerfile: distroful.Dockerfile
